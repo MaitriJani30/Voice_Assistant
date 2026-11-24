@@ -1,0 +1,29 @@
+# Streamlit secrets (protects your API keys)
+.streamlit/secrets.toml
+.streamlit/secrets.toml:1
+# Environment variables
+.env
+.env.*
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Generated audio files (prevents pushing temporary TTS outputs)
+*.mp3
+*.wav
+*.ogg
+
+# macOS system files
+.DS_Store
+
+# IDE & editor settings
+.vscode/
+.idea/
